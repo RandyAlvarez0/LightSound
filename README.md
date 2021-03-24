@@ -39,8 +39,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
-<img scr="walkthrough.gif" width=250><br>
+<img src="walkthrough.gif" title='Video Walkthrough' width='250' alt='Video Walkthrough' /> 
 
 ## Reflection Questions
 
@@ -58,13 +57,14 @@ Here's a walkthrough of implemented user stories:
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
    I noticed you can forgo the JavaScript file and just do some of the logic inside the HTML. Do you need a JavaScript file is it optional, how much JS can put inside HTML tags? The same goes for the CSS, there are hover and
-   active selectors you can add and then attributes are changed as a result, so what is the extent of CSS logic? Can there be any JS in CSS? If you are a front-end developer do you work with JS or is back-end already? If you are a
-   back-end developer do you even touch HTML or CSS, XML, PHP or are you just using things like Node.JS? What is the skill level generally needed, a master of JS or HTML or CSS?
+   active selectors you can add and then attributes are changed as a result, so what is the extent of CSS logic? Can there be any JS inside CSS? If you are a front-end developer do you work with JS or is JS back-end already? If you are a
+   back-end developer do you even touch HTML or CSS, XML or are you just using things like Node.JS? What is the skill level generally needed, do you need to be a master of JS or 
+   being well rounded with all three languages is enough?
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
-   If had more time I would first make the game more difficult by implementing the playback feature speeding up every turn, more buttons and the pattern changing every time you play the game. I would spend the time adding addition features
-   the would improve the game and the look and feel. With the time I spent on it I focused on the look of the game since I thought that would be something I could figure out. Where as the computer generating a random pattern everytime
-   would take much more time do. The pattern is a fixed array, so its easy to check some index is. But if it where random everytime I think I would write a function that would generate that random array, generate some random number and set each index
+   If I had more time I would first make the game more difficult by implementing the playback feature speeding up after every turn, more buttons and the pattern changing every time you play the game. I would spend the time adding addition features
+   that would improve the game and the look and feel. With the time I spent on it I focused on the look of the game since I thought that would be something I could figure out. Where as the computer generating a random pattern everytime
+   would take much more time do I think. The pattern is a fixed array, so its easy to check some index in it. But if it where random everytime I think I would write a function that would generate that random array, generate some random number and set each index
    to that random number, return the array or set some global var to that array. Then call that function inside startGame() before playClueSequence() and change every instance of pattern to the new array, then again things are never as easy as they seem.
 
 ## License
